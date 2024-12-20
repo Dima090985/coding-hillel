@@ -1,0 +1,128 @@
+.body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: black;
+}
+
+.header{
+	width: 156px;
+	font-size: 20px;
+	background-color: #ffffff;
+	padding-top: 52px;
+	padding-left: 172px;
+	padding-right: 172px;
+	margin: 0px auto;
+
+}
+
+.silk1 {
+  text-decoration: none;
+  line-height: 16px;
+  color: #3D3D3D;
+}
+.silk2 {
+  text-decoration: none;
+  line-height: 16px;
+  color: #46A358;
+}
+
+.data {
+  width: 255px;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3D3D3D;
+  padding-top: 36px;
+}
+.register {
+	width: 300px;
+	background-color: #ffffff;
+	border-bottom: 10px solid #46A358;
+	padding-right: 100px;
+	padding-left: 100px;
+	padding-bottom: 40px;
+	margin: -13px auto 50px;
+}
+
+
+.line2 {
+  padding-top: 16px;
+}
+.line3 {
+  padding-top: 16px;
+}
+.line4 {
+  padding-top: 16px;
+}
+
+
+.default-input {
+	font-size: 14px;
+	line-height: 16px;
+	color: #A5A5A5;
+	border: 1px solid #EAEAEA;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	padding-left: 14px;
+	padding-right: 14px;
+	border-radius: 5px;
+	width: 270px;
+}
+
+.button {
+	border: 1px solid #46A358;
+	border-radius: 5px;
+	height: 45px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 118px;
+	padding-right: 118px;
+	display: block;
+	font-size: 16px;
+	color: #FFFFFF;
+	background-color: #46A358;
+	width: 300px;
+	margin-top: 46px;
+	margin-bottom: 32px;
+}
+
+.or {
+  width: 95px;
+  font-size: 13px;
+  line-height: 16px;
+  color: #3D3D3D;
+  padding-left: 97px;
+  padding-right: 95px;
+}
+.continue {
+	text-decoration: none;
+	border: 1px solid #EAEAEA;
+	border-radius: 5px;
+	height: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 67.5px;
+	padding-right: 67.5px;
+	display: block;
+	font-size: 13px;
+	color: #727272;
+	margin-top: 27px;
+}
+
+.continue1 {
+  text-decoration: none;
+	border: 1px solid #EAEAEA;
+	border-radius: 5px;
+	height: 18px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 62.5px;
+	padding-right: 62.5px;
+	display: block;
+	font-size: 13px;
+	color: #727272;
+	margin: 16px auto;
+}
+
+.continue img {
+	display: inline-block;
+	vertical-align: middle;
+}
