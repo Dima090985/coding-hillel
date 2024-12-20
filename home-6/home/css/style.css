@@ -1,0 +1,150 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.wrapper {
+    width: 1200px;
+    margin: 10px auto 0px;
+}
+
+
+/* header */
+
+.header {
+	border-bottom: 0.3px solid #46A358;
+	font-size: 16px;
+}
+
+.logo {
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+.menu {
+    display: inline-block;
+    vertical-align: top;
+	 margin-left: 200px;
+}
+
+.menu li {
+    display: inline-block;
+    vertical-align: top;
+	 padding: 0px 50px 0px 0px;
+}
+
+.menu a {
+    text-decoration: none;
+    padding-bottom: 10px;
+	 color: #3D3D3D;
+}
+
+.menu a:hover {
+    border-bottom: 3px solid green;
+	 padding-bottom: 15px;
+}
+
+.button-logout {
+	border: 1px solid #46A358;
+	border-radius: 5px;
+	padding: 6.5px 22px;
+	background-color: #46A358;
+	color: #ffffff;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 291px;
+}
+
+.button-logout img {
+	display: inline-block;
+	vertical-align: middle;
+	padding-right: 2px;
+}
+
+/* header */
+
+
+/* main */
+
+.planet {
+	color: #3D3D3D;
+	background-color: #f5f5f5;
+	text-decoration: none;
+	margin-top: 5px;
+}
+
+.planet-info {
+	display: inline-block;
+	vertical-align: top;
+	width: 621px;
+	padding-top: 68px;
+	padding-bottom: 50px;
+	
+}
+
+.flowers-vs-planet {
+	display: inline-block;
+	vertical-align: bottom;
+	padding-left: 51px;
+}
+.flowers-vs-planet img {
+   width: 507px;
+   height: 446px;
+
+}
+
+.text1 {
+	text-transform: uppercase;
+	font-size: 14px;
+	padding-left: 43px;
+}
+
+.text2 {
+	font-size: 14px;
+	padding-left: 43px;
+}
+
+.title {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 70px;
+	color: #3D3D3D;
+	font-weight: bold;
+	margin-top: 7px;
+	margin-bottom: 7px;
+	padding-left: 40px;
+}
+
+.title span {
+	text-transform: uppercase;
+	font-size: 70px;
+	color: #46A358;
+}
+
+.shop-now-link {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    text-transform: uppercase;
+    border-radius: 6px;
+    background: #46A358;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: top;
+    padding: 10px 26px;
+	 margin-top: 44px;
+}
+
+.planet-info a {
+	margin-left: 41px;
+}
+
+
+
+
