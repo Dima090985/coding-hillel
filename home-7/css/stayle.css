@@ -1,0 +1,187 @@
+* {
+	box-sizing: border-box;
+}
+
+
+.body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	
+}
+.wrapper {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*              section-1                           */
+
+.box-text-menu {
+	width: 310px;
+	float: left;
+	background-color: #fbfbfb;
+}
+
+.menu-left {
+	padding-left: 30px;
+}
+
+.menu-left li {
+	display: block;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.menu-left a {
+	text-decoration: none;
+	color: #3D3D3D;
+	font-size: 15px;
+}
+.menu-left a:hover {
+	color: #46A358;
+}
+
+.text {
+	font-size: 18px;
+	font-weight: bold;
+	padding-left: 18px;
+	padding-top: 14px;
+}
+
+
+/*              section-2                           */
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+.right {
+	width: 840px;
+	float: right;
+}
+
+.menu-right {
+	font-size: 15px;
+	color: #3D3D3D;
+
+}
+
+.choice a:hover {
+	color: #46A358;
+	border-bottom: 3px solid #46A358;
+	padding-bottom: 3px;
+}
+
+.choice {
+	display: inline-block;
+	vertical-align: top;
+	
+}
+.choice-menu {
+	float: left;
+	padding-left: 0px;
+}
+
+.choice-menu li {
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 38px;
+}
+
+.choice-menu a {
+	text-decoration: none;
+	color: #3D3D3D;
+}
+.sorting {
+	float: right;
+	
+}
+.sorting p {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 15px;
+	color: #3D3D3D;
+}
+
+.button {
+	border: none;
+	background-color: white;
+}
+.button img {
+	display: inline-block;
+	vertical-align: middle;
+	font-size: 15px;
+}
+
+.cards {
+	width: 258px;
+	float: left;
+	margin-right: 33px;
+	margin-bottom: 70px;
+	background-color: #fbfbfb;
+}
+
+.cards img {
+	text-align: center;
+}
+
+.img-cards {
+	width: 250px;
+	height: 250px;
+	background-color: #fbfbfb;
+} 
+
+.cards h2 {
+	display: inline-block;
+	vertical-align: top;
+	color: #3D3D3D;
+	font-weight: normal;
+	margin-bottom: 0px;
+	font-size: 16px;
+}
+
+.cards p {
+	color: #46A358;
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+.mr-0 {
+	margin-right: 0px;
+}
+
+
+.page a:hover {
+	color: #ffffff;
+	background-color: #46A358;
+}
+
+.page-menu{
+	float: right;
+}
+
+.page-menu li{
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 10px;
+}
+
+.page-menu a {
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+	width: 35px;
+	height: 35px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	font-size: 18px;
+	color: #3D3D3D;
+	text-align: center;
+	padding: 5px 5px;
+}
+
+
+
+
+
