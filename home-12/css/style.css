@@ -865,20 +865,20 @@
 	align-items: center;
 	padding: 27px 33px 27px 20px;
 }
-
-.contact > li > p{
-	width: 176px;
-	font-size: 14px;
-	font-weight: 400;
-	color: #3D3D3D;
-	line-height: 22px;
-	margin-left: 10px;
+.contact > li > a > p{
+	padding-left: 10px;
 }
 
 .contact > li > a{
-	width: 20px;
-	height: 20px;
+	display: flex;
+	width: 201px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #3D3D3D;
+	align-items: center;
+	text-decoration: none;
 }
+
 
 /*                   section office                     */
 
@@ -939,14 +939,22 @@
 	display: inline;
 	padding: 0;
 }
-
-.office-silk > li > button{
+.office-silk > li > a > svg{
 	width: 30px;
 	height: 30px;
-	cursor: pointer;
-	background-color: #ffffff;
+	align-items: center;
+	justify-content: center;
 	border: 1px solid rgba(70, 163, 88, 0.2);
 	border-radius: 4px;
+	background-color: #ffffff;
+	margin-right: 5px;
+	padding: 8px 8px;
+	
+}
+
+.office-silk > li > a{
+	cursor: pointer;
+	text-decoration: none;
 }
 
 .end{
