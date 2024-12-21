@@ -306,6 +306,10 @@
 	margin-top: 44px;
 	margin-bottom: 85px;
 }
+.box-text-silk a:hover{
+	transform: scale(1.2);
+}
+
 
 /*                         main                             */
 
@@ -314,11 +318,14 @@
 	display: flex;
 	justify-content: space-between;
 	margin: 0 -10px;
+	margin-bottom: 90px;
 }
 /*                       section next                        */
 .main-menu {
 	width: 25%;
+	height: 774px;
 	padding: 0 10px;
+	background-color: #fbfbfb;
 }
 
 .menu-left {
@@ -333,8 +340,7 @@
 }
 
 .box-text-menu{
-	background-color: #fbfbfb;
-	padding-bottom: 385px;
+	
 	padding-right: 22px;
 
 }
@@ -363,22 +369,37 @@
 /*                   section next                      */
 
 
-/* .box-price {
+.box-price {
 	padding-top: 36px;
 	padding-bottom: 46px;
 }
 .line {
-	display: inline-flex;
-	vertical-align: middle;
+	display: flex;
 	padding-left: 27.8px;
 	padding-top: 29px;
 	padding-bottom: 21px;
+	position: relative;
 }
+.line > li:nth-child(2){
+	position: absolute;
+	top: 35px;
+	left: 41px;
+}
+.line > li{
+	display: flex;
+	list-style: none;
+	align-items: center;
+	justify-content: center;
+}
+
+
 
 .price {
 	padding-left: 27.8px;
 	padding-bottom: 16px;
 	font-size: 15px;
+	font-weight: normal;
+	color: #3d3d3d;
 }
 
 .price span{
@@ -387,6 +408,7 @@
 }
 
 .box-price button{
+	cursor: pointer;
 	border: 1px solid #46A358;
 	border-radius: 6px;
 	background-color: #46A358;
@@ -399,9 +421,10 @@
 /* .form {
 	font-size: 15px;
 	font-weight: 400;
-	padding-left: 27.8px;
-	padding-top: 16px;
-	padding-bottom: 15px;
+	margin-left: 27.8px;
+	margin-top: 16px;
+	margin-bottom: 15px;
+	margin-right: 22px;
 	color: #3d3d3d;
 }
 .form label input{
@@ -416,7 +439,13 @@
 	display: flex;
 	justify-content: space-between; 
 	margin: 15px 0;
-} */ 
+}  */
+.size{
+	padding-right: 22px;
+	padding-bottom: 19px;
+}
+
+
 
 
 /*              main-menu-top-right                     */
@@ -492,7 +521,15 @@
 	width: 33.333%;
 	padding: 0 10px 70px;
 }
-
+.right-box .cards:nth-child(7) {
+	padding-bottom: 0;
+}
+.right-box .cards:nth-child(8) {
+	padding-bottom: 0;
+}
+.right-box .cards:nth-child(9) {
+	padding-bottom: 0;
+}
 .cards-elem:hover {
 	border-top-color: #46A358;
 }
@@ -778,22 +815,24 @@
 .newsletters{
 	display: flex;
 	margin: 0 -10px;
+	background-color: #fbfbfb;
 }
 .page-news{
 	display: flex;
 	justify-content: space-between;
-	background-color: #fbfbfb;
 	padding: 0 10px;
 }
 
 .news{
+	width: 33%;
 	display: flex;
 	flex-direction: column;
 	align-items: start;
 	margin: 25px 37px 25px 24px;
+	
 }
 
-.news:nth-child(2) {
+.page-news .news:nth-child(2) {
 	border-right: 1px solid rgba(70, 163, 88, 0.1);
 	border-left: 1px solid rgba(70, 163, 88, 0.1);
 	padding-left: 27px;
@@ -863,7 +902,7 @@
 .contact > li{
 	display: flex;
 	align-items: center;
-	padding: 27px 33px 27px 20px;
+	padding: 27px 54px 27px 26px;
 }
 .contact > li > a > p{
 	padding-left: 10px;
@@ -893,8 +932,7 @@
 .office-other{
 	padding: 0 10px;
 	list-style: none;
-	padding-right: 123px;
-
+	padding-right: 147px;
 }
 
 .title{
