@@ -142,22 +142,26 @@
 	border-bottom: 3px solid transparent;
 }
 
-.menu-centr > li > button{
+.menu-centr > li > a{
 	cursor: pointer;
-	background-color: transparent;
 	color: #3d3d3d;
-	font-size: 16px;
-	border: none;
-	padding: 0;
 	text-decoration: none;
-	font-family: inherit;
-}
+	font-weight: normal;
+}	
 
 
 .menu-centr > li:hover {
 	border-bottom: 3px solid #46A358;
 	font-weight: bold;
+	transition-duration: 1s;
 }
+.header-menu a:hover img{
+	transform: scale(1.1);
+	transition-duration: 1s;
+}
+
+
+
 /*                     submenu                         */
 
 .child-menu{
@@ -212,6 +216,7 @@
 
 
 
+
 /*                     submenu                         */
 .logoright {
 	display: flex;
@@ -233,6 +238,12 @@
 }
 .logoright button:hover {
 	transform: scale(1.1);
+	transition-duration: 1s;
+}
+
+.logoright a:hover {
+	transform: scale(1.1);
+	transition-duration: 1s;
 }
 
 .log {
@@ -324,6 +335,13 @@
 }
 .box-text-silk a:hover{
 	transform: scale(1.1);
+	transition-duration: 1s;
+}
+.flower:hover img{
+	transform: none;
+	transition: none;
+	border: none;
+	z-index: 1;
 }
 
 
@@ -335,6 +353,10 @@
 	justify-content: space-between;
 	margin: 0 -10px;
 	margin-bottom: 90px;
+}
+
+.main:hover a{
+	transition-duration: 1s;
 }
 /*                       section next                        */
 .main-menu {
@@ -435,6 +457,7 @@
 
 .box-price button:hover {
 	transform: scale(1.1);
+	transition-duration: 1s;
 }
 
 /*                   section next                      */
@@ -632,6 +655,9 @@
 
 .down {
 	margin-bottom: 100px;
+}
+.down:hover a{
+	transition-duration: 1s;
 }
 
 .page-menu li:hover {
@@ -972,8 +998,9 @@
 .office-other{
 	padding: 0 10px;
 	list-style: none;
-	padding-right: 147px;
+	padding-right: 146px;
 }
+
 
 .title{
 	padding-left: 0px;
@@ -991,9 +1018,8 @@
 }
 
 .office-menu > li > a:hover{
-	transform: scaleX(2.0);
+	transform: scaleX(0.5);
 	font-weight: 600;
-	font-size: 18px;
 	color: #be7c7c;
 }
 
