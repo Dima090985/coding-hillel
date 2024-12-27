@@ -112,7 +112,7 @@
         <div class="main">
           <div class="main-menu">
             <section class="box-text-menu">
-              <h2 class="title">Categories</h2>
+              <h2 class="title-text">Categories</h2>
               <ul class="menu-left">
                 <li>
                   <a href="#"
@@ -172,7 +172,7 @@
             </section>
 
             <section class="box-price">
-              <h2 class="title">Price Range</h2>
+              <h2 class="title-text">Price Range</h2>
 
               <ul class="line">
                 <li>
@@ -257,8 +257,8 @@
             </section>
 
             <section class="size">
-              <h2 class="title">Size</h2>
-              <ul class="menu-left">
+              <h2 class="title-text">Size</h2>
+              <!-- <ul class="menu-left">
                 <li>
                   <a href="#"
                     >Small
@@ -277,27 +277,36 @@
                     <p>(78)</p></a
                   >
                 </li>
-              </ul>
+              </ul> -->
 
-              <!-- <form class="form" action="#">
-                <p>
-                  <label> <input type="checkbox" />Small </label>
-                  <span class="input-namber">(119)</span>
-                </p>
-                <p>
+              <form class="form" action="#">
+                <div class="check-wrap">
                   <label>
-                    <input class="medium" type="checkbox" />Medium
+                    <input type="checkbox" class="checkbox visually-hidden" />
+                    <span class="check-text-namber"
+                      >Small <span class="number">(119)</span></span
+                    >
                   </label>
-                  <span class="input-namber">(86)</span>
-                </p>
-                <p>
-                  <label> <input type="checkbox" />Large </label>
-                  <span class="input-namber">(78)</span>
-                </p>
+                </div>
+                <div class="check-wrap">
+                  <label>
+                    <input type="checkbox" class="checkbox visually-hidden" />
+                    <span class="check-text-namber"
+                      >Medium <span class="number-medium">(86)</span></span
+                    ></label
+                  >
+                </div>
+                <div class="check-wrap">
+                  <label>
+                    <input type="checkbox" class="checkbox visually-hidden" />
+                    <span class="check-text-namber"
+                      >Large <span class="number">(78)</span></span
+                    ></label
+                  >
+                </div>
               </form>
-               -->
             </section>
-            <img class="img-responsive" src="img/banner.jpg" alt="banner" />
+            <img class="img-responsive" src="img/banner.png" alt="banner" />
           </div>
 
           <div class="main-menu-top-right">
@@ -908,13 +917,46 @@
           <div class="down-page">
             <section class="page-next">
               <ul class="page-menu">
+                <li>
+                  <a href="#">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 18 18"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M11.625 14.25C11.625 14.25 6.375 11.142 6.375 9C6.375 6.85875 11.625 3.75 11.625 3.75"
+                        stroke="#3D3D3D"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                </li>
                 <li><a href="#">1</a></li>
                 <li><a href="#">2</a></li>
                 <li><a href="#">3</a></li>
                 <li><a href="#">4</a></li>
                 <li>
                   <a href="#">
-                    <img src="img/arrowright.svg" alt="choice" />
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 18 18"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.375 3.75024C6.375 3.75024 11.625 6.85824 11.625 9.00024C11.625 11.1415 6.375 14.2502 6.375 14.2502"
+                        stroke="#3D3D3D"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
                   </a>
                 </li>
               </ul>
