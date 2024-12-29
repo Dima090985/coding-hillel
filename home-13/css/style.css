@@ -367,6 +367,8 @@
 }
 /*                       section next                        */
 .main-menu {
+	width: 25%;
+	margin: 0 -10px;
 	background-color: #fbfbfb;
 }
 
