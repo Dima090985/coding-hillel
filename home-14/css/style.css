@@ -131,7 +131,7 @@
 .header {
 	padding-top: 25px;
 	padding-bottom: 46px;
-	margin: 0 -10px;
+	
 }
 .header-right{
 	width: 100%;
@@ -312,7 +312,7 @@
 	justify-content: space-between;
 	margin-top: 12px;
 	background-color: #fbfbfb;
-	margin: 0 auto;
+	padding: 0 10px;
 }
 .box-text-silk{
 	max-width: 547px;
@@ -370,11 +370,14 @@
 
 /*                         main                             */
 
-
+.main-main{
+	margin: 0 -10px;
+}
 .main{
 	display: flex;
 	justify-content: space-between;
-	margin-bottom: 90px;
+	padding: 0 10px;
+	
 	
 }
 
@@ -383,9 +386,8 @@
 }
 /*                       section next                        */
 .main-menu {
-	width: 25%;
-	margin: 0 -10px;
 	background-color: #fbfbfb;
+	margin-bottom: 90px;
 	
 }
 
@@ -540,7 +542,7 @@
 
 .main-menu-top-right {
 	width: 75%;
-	padding: 0 10px;
+	margin-bottom: 90px;
 }
 
 .menu-top {
@@ -721,9 +723,7 @@
 	margin: 0 -10px;
 }
 
-.page-menu{
-	padding-right: 10px;
-}
+
 .page-menu li{
 	display: inline-block;
 	font-weight: normal;
@@ -745,11 +745,18 @@
 
 
 /*                   section next find-more                     */
+.down{
+	padding: 0 10px;
+	
+}
+.down-find-more{
+	background-color:  #fbfbfb;
+}
+
 
 .find-more {
 	display: flex;
 	justify-content: space-between;
-	margin: 0 -10px;
 }
 
 .cards-box {
@@ -762,7 +769,7 @@
 .box-text {
 	width: 50%;
 	font-weight: normal;
-	background-color:  #fbfbfb;
+	
 	margin-top: 52px;
 	text-align: end;
 	padding-right: 20px;
@@ -916,13 +923,13 @@
 
 .newsletters{
 	display: flex;
-	margin: 0 -10px;
 	background-color: #fbfbfb;
+	padding: 0 10px;
 }
 .page-news{
 	display: flex;
 	justify-content: space-between;
-	padding: 0 10px;
+	
 }
 
 .news{
@@ -930,20 +937,18 @@
 	display: flex;
 	flex-direction: column;
 	align-items: start;
-	margin: 25px 37px 25px 24px;
+	padding: 29px 18px 24px 14px;
 	
 }
 
 .page-news .news:nth-child(2) {
 	border-right: 1px solid rgba(70, 163, 88, 0.1);
 	border-left: 1px solid rgba(70, 163, 88, 0.1);
-	padding-left: 27px;
-	padding-right: 27px;
 	margin-left: 0;
 	margin-right: 0;
 }
 .news:nth-child(3){
-	margin-right: 32px;
+	padding-right: 0;
 }
 .news:nth-child(4){
 	padding-left: 32px;
@@ -965,11 +970,9 @@
 
 .input-buttom{
 	display: flex;
-	width: 354px;
 	padding: 18px 0;
 }
 .input-buttom > input{
-	width: 270px;
 	height: 40px;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 	padding-left: 10px;
@@ -1037,16 +1040,13 @@
 
 .office{
 	display: flex;
-	margin: 0 -10px;
 	padding: 32px 23px;
 	background-color: #fbfbfb;
 	
 }
-.office-menu,
-.office-other{
-	padding: 0 10px;
+.office-menu{
 	list-style: none;
-	padding-right: 146px;
+	padding-right: 111px;
 }
 
 
@@ -1081,12 +1081,6 @@
 
 }
 .office > div > h3{
-	display: flex;
-	padding-left: 0px;
-	font-weight: 700;
-	font-size: 18px;
-	line-height: 30px;
-	color: #3D3D3D;
 	margin-bottom: 20px;
 }
 .office-silk {
@@ -1230,7 +1224,6 @@
 	}
 	
 	.header-box{
-		width: 320px;
 		display: flex;
 		flex-direction: column-reverse;
 
@@ -1248,7 +1241,7 @@
 		position: absolute;
 		right: 0;
 		top: 46px;
-		width: 300px;
+		width: 320px;
 		background-color: #ffffff;
 		box-shadow: -5px 0 5px rgba(0, 0, 0, 0.2);
 		padding: 0 10px;
@@ -1266,8 +1259,7 @@
 	}
 	.main-menu{
 		background-color: #ffffff;
-		width: 320px;
-		margin: 0 auto;
+		width: 100%;
 		padding-top: 5px;
 		padding-bottom: 20px;
 		
@@ -1312,7 +1304,6 @@
 
 /*                                                */
 	.find-more{
-		width: 320px;
 		display: flex;
 		flex-direction: column;
 	}
@@ -1342,24 +1333,16 @@
 		text-align: center;
 	}
 	.news {
-		width: 320px;
-		display: flex;
-		flex-direction: column;
-		align-items: start;
-		margin: 25px 26px 38px 11px;
+		width: 100%;
 	}
 	.page-news .news:nth-child(2) {
 		border: none;
-		padding-left: 12px;
-		padding-right: 0;
 	}
 
 	.news > img{
 		display: none;
 	}
-	.input-buttom > input {
-		width: 220px;
-	}
+	
 	.input-buttom > button {
 		width: 65px;
 		font-size: 15px;
@@ -1371,7 +1354,6 @@
 		flex-wrap: wrap;
 	}
 	.office-menu{
-		width: 320px;
 		padding-right: 0;
 	}
 
