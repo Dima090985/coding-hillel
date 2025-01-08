@@ -91,7 +91,7 @@
 	font-family: "Cera Pro", "Arial", sans-serif;
 	font-weight: 500;
 	font-style: normal;
-	
+	min-width: 320px;
 }
 
 .wrapper {
@@ -1369,4 +1369,13 @@
 	}
 
 
+}
+.body{
+	display: flex;
+	flex-direction: column;
+	flex-flow: row wrap;
+	
+	
+	
+	
 }
