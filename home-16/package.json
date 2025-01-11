@@ -23,7 +23,13 @@
     "gulp-rename": "^2.0.0",
     "gulp-replace": "^1.1.4",
     "gulp5-sass-plugin": "^2.0.2",
+    "imagemin": "^9.0.0",
     "postcss": "^8.4.45",
     "sass": "^1.78.0"
+  },
+  "dependencies": {
+    "-": "^0.0.1",
+    "g": "^2.0.1",
+    "gulp-install": "^1.1.0"
   }
 }
