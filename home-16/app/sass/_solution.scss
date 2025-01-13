@@ -4,5 +4,18 @@
 	font-size: 38px;
 	line-height: normal;
    padding-top: 129px;
-   padding-bottom: 159px;
+	&_scroll{
+		img{
+			margin-top: 110px;
+			width: 42px;
+			height: 42px;
+		}
+	}
+}
+@media(min-width: 768px){
+	.solution_scroll{
+		img{
+			margin-top: 489px;
+		}
+	}
 }

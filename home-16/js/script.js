@@ -1,7 +1,7 @@
-const btn = document.querySelector('.menu_btn');
-const menu = document.querySelector('.menu_list');
+// const btn = document.querySelector('.js-mobile-menu-btn');
+// const menu = document.querySelector('.js-menu');
 
-btn.addEventListener("click", (e) => {
-    btn.classList.add("active");
-    menu.classList.add("active");
-});
+// btn.addEventListener("click", (e) => {
+//     btn.classList.add("active");
+//     menu.classList.add("active");
+// });

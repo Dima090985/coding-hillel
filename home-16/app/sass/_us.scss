@@ -1,0 +1,144 @@
+.us{
+	display: grid;
+	grid-template-columns: auto;
+	grid-template-rows: repeat(13, auto);
+	width: 100%;
+	&_title{
+		display: flex;
+		justify-content: center;
+		font-size: 14px;
+		font-weight: 700;
+		letter-spacing: 1px;
+		text-transform: uppercase;
+		color: var(--Main-Regular, #323264);
+		padding-bottom: 30px;
+	}
+	&_logo1{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 120px;
+		background: #1C4280;
+		
+	}
+	&_logo2{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 120px;
+		background: #143646;
+		
+	}
+	&_logo3{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 120px;
+		background: linear-gradient(0deg, #F48B30 0%, #F48B30 100%), #F48B30
+	}
+	&_logo4{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 120px;
+		background: #9E4DC3;
+		
+	}
+	&_logo5{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 120px;
+		background: #FD9339;
+	}
+	&_logo6{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 120px;
+		background: #E2E2E4;
+	}
+	&_logo7{
+		display: none;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 120px;
+		background: #C71C36;
+	}
+	&_logo8{
+		display: none;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 120px;
+		background: #DCF3F9;
+	}
+	&_logo9{
+		display: none;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 120px;
+		background: #EAEAEA;
+	}
+	&_logo10{
+		display: none;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 120px;
+		background: #282240;
+	}
+	&_logo11{
+		display: none;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 120px;
+		background: #1D4568;
+	}
+	&_logo12{
+		display: none;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 120px;
+		background: #000;
+	}
+}
+@media (min-width: 768px){
+	.us{
+		display: grid;
+		grid-template-columns: repeat(3, auto);
+		grid-template-rows: repeat(5, auto);
+		
+		&_title{
+			grid-column: 1 / 4;
+		}
+		&_logo7{
+			display: flex;
+		}
+		&_logo8{
+			display: flex;
+		}
+		&_logo9{
+			display: flex;
+		}
+		&_logo10{
+			display: flex;
+		}
+		&_logo11{
+			display: flex;
+		}
+		&_logo12{
+			display: flex;
+		}
+	}
+}
