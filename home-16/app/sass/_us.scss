@@ -142,3 +142,33 @@
 		}
 	}
 }
+
+@media (min-width: 962px){
+	.us{
+		display: grid;
+		grid-template-columns: repeat(4, auto);
+		grid-template-rows: repeat(4, auto);
+		
+		&_title{
+			grid-column: 1 / 5;
+		}
+		// &_logo7{
+		// 	display: flex;
+		// }
+		// &_logo8{
+		// 	display: flex;
+		// }
+		// &_logo9{
+		// 	display: flex;
+		// }
+		// &_logo10{
+		// 	display: flex;
+		// }
+		// &_logo11{
+		// 	display: flex;
+		// }
+		// &_logo12{
+		// 	display: flex;
+		// }
+	}
+}

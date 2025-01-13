@@ -6,6 +6,7 @@
 	text-align: center;
 	padding-top: 30px;
 	background: var(--Grey-Bg, #F5F5FA);
+	padding: 0 15px;
 
 	&_addres{
 		color: var(--Main-Regular, #323264);
@@ -13,7 +14,7 @@
 		font-weight: 400;
 		border-top: 2px solid #E6E6F0;
 		padding-top: 30px;
-		// margin: 0 15px;
+		
 		p{
 			text-align: center;
 			color: var(--Active-Regular, #24A3FF);

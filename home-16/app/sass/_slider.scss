@@ -1,7 +1,7 @@
 .slider{
 	display: grid;
 	grid-template-columns: auto;
-	grid-template-rows: auto;
+	grid-template-rows: auto auto;
 	padding: 0px 15px;
 	margin-top: 40px;
 	margin-bottom: 60px;
@@ -74,6 +74,9 @@
 			a{
 				text-decoration: none;
 			}
+		}
+		&_info{
+			grid-column: 2/3;
 		}
 	}
 }
