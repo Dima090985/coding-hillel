@@ -2,7 +2,7 @@
 	display: grid;
 	grid-template-columns: auto;
 	grid-template-rows: repeat(13, auto);
-	width: 100%;
+	margin: 0 -15px;
 	&_title{
 		display: flex;
 		justify-content: center;
@@ -152,23 +152,6 @@
 		&_title{
 			grid-column: 1 / 5;
 		}
-		// &_logo7{
-		// 	display: flex;
-		// }
-		// &_logo8{
-		// 	display: flex;
-		// }
-		// &_logo9{
-		// 	display: flex;
-		// }
-		// &_logo10{
-		// 	display: flex;
-		// }
-		// &_logo11{
-		// 	display: flex;
-		// }
-		// &_logo12{
-		// 	display: flex;
-		// }
+		
 	}
 }
