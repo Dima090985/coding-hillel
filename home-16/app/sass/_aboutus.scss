@@ -17,7 +17,7 @@
 	grid-template-rows: repeat(2, auto);
 	background: var(--Grey-Bg, #F5F5FA);
 	padding: 0 60px;
-	&_title{
+	&__title{
 		display: flex;
 		justify-content: center;
 		align-self: stretch;
@@ -29,7 +29,7 @@
 		padding-bottom: 30px;
 		padding-top: 30px;
 	}
-	&_logo1{
+	&__logo1{
 		display: flex;
 		
 		padding: 24.4px 39.667px 25.6px 39px;
@@ -38,7 +38,7 @@
 		border-radius: 12px;
 		background: #fff;
 	}
-	&_logo2{
+	&__logo2{
 		display: none;
 		
 		padding: 24.4px 13px 25.6px 13px;
@@ -47,7 +47,7 @@
 		border-radius: 12px;
 		background: #fff;
 	}
-	&_logo3{
+	&__logo3{
 		display: none;
 		
 		padding: 24.4px 1px 25.6px 1px;
@@ -56,7 +56,7 @@
 		border-radius: 12px;
 		background: #fff;
 	}
-	&_logo4{
+	&__logo4{
 		display: none;
 		
 		padding: 24.4px 10.333px 25.6px 11px;
@@ -76,16 +76,16 @@
 		grid-template-rows: repeat(2, auto);
 		gap: 0 40px;
 		
-		&_title{
+		&__title{
 			grid-column: 1 / 5;
 		}
-		&_logo2{
+		&__logo2{
 			display: flex;
 		}
-		&_logo3{
+		&__logo3{
 			display: flex;
 		}
-		&_logo4{
+		&__logo4{
 			display: flex;
 		}
 	}

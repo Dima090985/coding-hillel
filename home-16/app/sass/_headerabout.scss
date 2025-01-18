@@ -11,19 +11,26 @@
 	background: var(--Grey-Bg, #F5F5FA);
 	padding: 10px 15px;
 	margin: 0 -15px;
-	&_address{
+	&__address{
 		display: none;
+		a{
+			text-decoration: none;
+			font-size: 16px;
+			color: var(--Grey-Text, #B3B3BA);
+			font-weight: 400;
+			margin: auto 6px;
+		}
 	}
-	&_phone{
+	&__phone{
 		color: var(--Grey-Text, #B3B3BA);
 		font-size: 16px;
 		font-weight: 700;
 		text-decoration: none;
 	}
-	&_fb{
+	&__fb{
 		display: none;
 	}
-	&_lang{
+	&__lang{
 		display: flex;
 		padding: 0;
 		list-style: none;
@@ -37,6 +44,10 @@
 			font-weight: 700;
 			letter-spacing: 1px;
 		}
+		.active{
+			
+			background-color: #F0145A;
+		}
 		a:hover{
 			background-color: #f5f5fa;
 			color: #000;
@@ -47,14 +58,14 @@
 .aboutlogo-box{
 	display: flex;
 	padding: 15px 0px 10px 0px;
-	&_page{
+	&__page{
 		display: flex;
 		font-size: 20px;
 		color: #323264;
 		font-weight: 400;
 		
 	}
-	&_page::before{
+	&__page::before{
 		content: '';
 		background-image: url(../img/slash.svg);
 		background-repeat: no-repeat;
@@ -62,7 +73,7 @@
 		height: 47px;
 		margin: 0 4px;
 	}
-	&_logo{
+	&__logo{
 		
 		img{
 			width: 69.33px;
@@ -75,7 +86,7 @@
 	display: flex;
 	align-items: center;
 	position: relative;
-	&_btn{
+	&__btn{
 		cursor: pointer;
 		background-image: url(../img/aboutburger.svg);
 		width: 32px;
@@ -84,22 +95,18 @@
 		border: none;
 	}
 	
-	&_list{
+	&__list{
 		display: none;
-	}
-		li{
-			padding: 5px 0;
-		}
+		justify-content: end;
 		
 		a {
 			text-decoration: none;
 			background-color: transparent;
 			color: #24A3FF;
 			
-			
 		}
 	}
-
+}
 
 	@media (min-width: 768px) {
 		.aboutheader{
@@ -113,18 +120,46 @@
 			justify-content: flex-start;
 			align-items: center;
 			background-color: transparent;
-			&_address{
+			
+			&__address{
 				display: flex;
-				font-size: 16px;
-				color: var(--Grey-Text, #B3B3BA);
-				font-weight: 400;
-				margin: auto 6px;
+				align-items: center;
+				
+				
 			}
-			&_phone{
+			&__address::before{
+				content: '';
+				background-image: url(../img/dotfooter.svg);
+				width: 6px;
+				height: 7px;
+				background-position: center;
+				background-repeat: no-repeat;
+				padding: 0 6px;
+			}
+			&__address::after{
+				content: '';
+				background-image: url(../img/dotfooter.svg);
+				width: 6px;
+				height: 7px;
+				background-position: center;
+				background-repeat: no-repeat;
+				padding: 0 6px;
+			}
+			&__phone{
 				display: flex;
+				align-items: center;
 				margin-right: 6px;
 			}
-			&_fb{
+			&__phone::after{
+				content: '';
+				background-image: url(../img/dotfooter.svg);
+				width: 6px;
+				height: 7px;
+				background-position: center;
+				background-repeat: no-repeat;
+				padding: 0 6px;
+			}
+			&__fb{
 				display: flex;
 				width: 24px;
 				height: 25px;
@@ -142,13 +177,13 @@
 		.aboutlogo-box{
 			display: flex;
 			align-items: center;
-			&_page{
+			&__page{
 				
 				display: flex;
 				font-size: 36px;
 				color: #323264;
 			}
-			&_page::before{
+			&__page::before{
 				content: '';
 				background-image: url(../img/slash.svg);
 				background-repeat: no-repeat;
@@ -156,7 +191,7 @@
 				height: 47px;
 				background-size: 21px 47px;
 			}
-			&_logo{
+			&__logo{
 				img{
 					width: 130px;
 					height: 60px;
@@ -168,11 +203,11 @@
 		display: flex;
 		justify-content: flex-start;
 		
-		&_btn{
+		&__btn{
 			display: none;
 		}
 	
-		&_list{
+		&__list{
 			display: flex;
 			list-style: none;
 			padding-left: 0;
@@ -183,17 +218,17 @@
 				text-decoration: none;
 				background-color: transparent;
 				color: #24A3FF;
-				// color: #ffffff;
 				font-size: 16px;
 				font-weight: 700;
 				border-bottom: 2px solid transparent;
-				margin-right: 15px;
+				margin-left: 15px;
 			}
 			a:hover{
 				border-bottom: 2px solid #24A3FF;
 			}
 			.active{
 				color: #F0145A;
+				margin-left: 0;
 			}
 		}
 	 }
