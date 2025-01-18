@@ -1,12 +1,10 @@
 .ideas{
 	padding: 0 15px;
 	margin-top: 30px;
-	&_menu{
+	&__menu{
 		display: flex;
 		flex-direction: row;
 		list-style: none;
-		font-size: 30px;
-		font-weight: 700;
 		padding-left: 0;
 		padding-bottom: 15px;
 		.active{
@@ -14,27 +12,32 @@
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: transparent;
 		}
-		a{
+		button{
+			cursor: pointer;
 			white-space: nowrap;
 			color: #B3B3BA;
 			text-decoration: none;
 			padding-right: 30px;
+			border: none;
+			background-color: transparent;
+			font-size: 30px;
+			font-weight: 700;
       }
-		a:hover{
+		button:hover{
 			background: var(--Gradient-Red-Text, linear-gradient(90deg, #F0145A 0.84%, #EF8080 99.96%));
 			-webkit-background-clip: text;
 			-webkit-text-fill-color: transparent;
 		}
 
 	}
-	&_title{
+	&__title{
 		font-size: 20px;
 		font-weight: 700;
 		color: #fff;
 		border-top: 4px solid rgba(255, 255, 255, 0.30);
 		padding: 15px 0 30px;
 	}
-	&_text{
+	&__text{
 		display: flex;
 		margin: auto;
 		font-size: 19px;
@@ -51,25 +54,30 @@
 		margin: 200px auto 0;
 		gap: 0 30px;
 		padding: 0 15px;
-		&_menu{
+		&__menu{
 			display: grid;
 			grid-row: 1 / -1;
 			justify-self: end;
 			font-size: 38px;
 			align-items: center;
 			border-right: 4px solid rgba(255, 255, 255, 0.30);
-			a{
+			button{
 				display: flex;
 				justify-content: end;
 				font-size: 38px;
 			   align-items: end;
+				border: none;
+				background-color: transparent;
+				font-size: 30px;
+				font-weight: 700;
+
 			}
 		}
-		&_title{
+		&__title{
 			border-top: none;
 			font-size: 30px;
 		}
-		&_text{
+		&__text{
 			display: grid;
 			grid-column: -2 / -1;
 			
