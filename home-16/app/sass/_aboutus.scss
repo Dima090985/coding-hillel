@@ -1,22 +1,17 @@
-.aboutusslider{
-	&_ellipse{
-	padding: 30px 0;
-	display: flex;
-	justify-content: center;
-	background: var(--Grey-Bg, #F5F5FA);
-		a{
-			text-decoration: none;
-			padding: 0 5px;
-		}
-	}	
-}
-
+// .aboutusslider{
+// 	&_ellipse{
+// 	padding: 30px 0;
+// 	display: flex;
+// 	justify-content: center;
+// 	background: var(--Grey-Bg, #F5F5FA);
+// 		a{
+// 			text-decoration: none;
+// 			padding: 0 5px;
+// 		}
+// 	}	
+// }
 .aboutus{
-	display: grid;
-	grid-template-columns: auto;
-	grid-template-rows: repeat(2, auto);
-	background: var(--Grey-Bg, #F5F5FA);
-	padding: 0 60px;
+	padding-bottom: 15px;
 	&__title{
 		display: flex;
 		justify-content: center;
@@ -29,9 +24,20 @@
 		padding-bottom: 30px;
 		padding-top: 30px;
 	}
+}
+
+
+
+.aboutusslider{
+	// display: grid;
+	// grid-template-columns: auto;
+	// grid-template-rows: repeat(2, auto);
+	background: var(--Grey-Bg, #F5F5FA);
+	padding: 0 60px;
+	margin-bottom: 30px;
+	
 	&__logo1{
 		display: flex;
-		
 		padding: 24.4px 39.667px 25.6px 39px;
 		justify-content: center;
 		align-items: center;
@@ -39,8 +45,7 @@
 		background: #fff;
 	}
 	&__logo2{
-		display: none;
-		
+		display: flex;
 		padding: 24.4px 13px 25.6px 13px;
 		justify-content: center;
 		align-items: center;
@@ -48,8 +53,7 @@
 		background: #fff;
 	}
 	&__logo3{
-		display: none;
-		
+		display: flex;
 		padding: 24.4px 1px 25.6px 1px;
 		justify-content: center;
 		align-items: center;
@@ -57,8 +61,7 @@
 		background: #fff;
 	}
 	&__logo4{
-		display: none;
-		
+		display: flex;
 		padding: 24.4px 10.333px 25.6px 11px;
 		justify-content: center;
 		align-items: center;
@@ -70,24 +73,25 @@
 
 
 @media (min-width: 768px){
-	.aboutus{
-		display: grid;
-		grid-template-columns: repeat(4, auto);
-		grid-template-rows: repeat(2, auto);
-		gap: 0 40px;
+	.aboutusslider{
+		// display: grid;
+		// grid-template-columns: repeat(4, auto);
+		// grid-template-rows: repeat(2, auto);
+		// gap: 0 40px;
+		padding: 0 15px;
 		
-		&__title{
-			grid-column: 1 / 5;
-		}
-		&__logo2{
-			display: flex;
-		}
-		&__logo3{
-			display: flex;
-		}
-		&__logo4{
-			display: flex;
-		}
+		// &__title{
+		// 	grid-column: 1 / 5;
+		// }
+		// &__logo2{
+		// 	display: flex;
+		// }
+		// &__logo3{
+		// 	display: flex;
+		// }
+		// &__logo4{
+		// 	display: flex;
+		// }
 	}
 }
 

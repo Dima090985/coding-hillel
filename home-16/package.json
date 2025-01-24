@@ -41,6 +41,7 @@
     "Firefox ESR"
   ],
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "del": "^8.0.0"
   }
 }

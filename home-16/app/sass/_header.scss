@@ -65,6 +65,7 @@
 		a:hover{
 			background-color: #f5f5fa;
 			color: #000;
+			transition-duration: 1s;
 		}
 		
 	}
@@ -109,6 +110,13 @@
 	&__list{
 		display: none;
 		justify-content: end;
+		background-color: transparent;
+		flex-direction: column;
+		align-items: end;
+		list-style: none;
+		top: 50px;
+		right: 11px;
+		
 	}
 		a {
 			text-decoration: none;
@@ -119,16 +127,12 @@
 	}
 
 
-// .menu:hover .menu_list::after{
-// 	display: flex;
-// 	background-color: transparent;
-// 	flex-direction: column;
-// 	align-items: end;
-// 	list-style: none;
-// 	position: absolute;
-// 	top: 50px;
-// 	right: 11px;
-// }
+.menu:active .menu__list {
+	display: flex;
+	position: absolute;
+	
+	
+}
 
 
 
@@ -221,15 +225,15 @@
 
 	&__list{
 		display: flex;
+		flex-direction: row;
 		list-style: none;
 		padding-left: 0;
-		position: relative;
+		
 		
 		
 		a {
 			text-decoration: none;
 			background-color: transparent;
-			// color: #24A3FF;
 			color: #ffffff;
 			font-size: 16px;
 			font-weight: 700;
@@ -238,6 +242,7 @@
 		}
 		a:hover{
 			border-bottom: 2px solid #24A3FF;
+			transition-duration: 1s;
 		}
 		.active{
 			color: #F0145A;

@@ -51,6 +51,7 @@
 		a:hover{
 			background-color: #f5f5fa;
 			color: #000;
+			transition-duration: 1s;
 		}
 		
 	}
@@ -98,6 +99,12 @@
 	&__list{
 		display: none;
 		justify-content: end;
+		background-color: transparent;
+		flex-direction: column;
+		align-items: end;
+		list-style: none;
+		top: 50px;
+		right: 11px;
 		
 		a {
 			text-decoration: none;
@@ -108,11 +115,19 @@
 	}
 }
 
+.aboutmenu:active .aboutmenu__list {
+	display: flex;
+	position: absolute;
+	
+	
+}
+
 	@media (min-width: 768px) {
 		.aboutheader{
 			grid-template-columns: auto;
 			grid-template-rows: repeat(3, auto);
 			row-gap: 30px;
+			padding: 50px 60px 0;
 			
 		}
 		.abouttop-line{
@@ -209,9 +224,10 @@
 	
 		&__list{
 			display: flex;
+			flex-direction: row;
 			list-style: none;
 			padding-left: 0;
-			position: relative;
+			
 			
 			
 			a {
@@ -225,6 +241,7 @@
 			}
 			a:hover{
 				border-bottom: 2px solid #24A3FF;
+				transition-duration: 1s;
 			}
 			.active{
 				color: #F0145A;

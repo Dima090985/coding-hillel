@@ -10,6 +10,10 @@
 			width: 42px;
 			height: 42px;
 		}
+		:hover{
+			transition-duration: 1s;
+			transform: rotate(180deg);
+		}
 	}
 }
 @media(min-width: 768px){
