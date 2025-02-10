@@ -2160,12 +2160,15 @@
   margin: 0 auto;
   padding: 30px 15px;
 }
-.team-main__people li {
+.team-main__people {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: repeat(6);
+  gap: 30px;
+}
+.team-main__people li {
   list-style: none;
-  padding-bottom: 30px;
+  padding-bottom: 60px;
 }
 .team-main__people li img {
   border-radius: 12px;
